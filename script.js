@@ -17,7 +17,8 @@ buttonBackground.addEventListener("click", function () {
     if (isOrange) {
         profile.style.backgroundColor = "";
         isOrange = false;
-    } else {
+    } 
+    else {
         profile.style.backgroundColor = "orange";
         isOrange = true;
     }
